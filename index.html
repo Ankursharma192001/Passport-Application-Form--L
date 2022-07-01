@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Application Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <img src="/image/nationalEmblem.webp" alt="This is an imgae of emblem">
+        </div>
+        <div class="text">
+
+            <div class="heading1">
+                <h2>PASSPORT APPLICATION FORM</h2>
+            </div>
+
+            <div class="heading2">
+                <h2>Government of India , Ministry of External Affairs</h2>
+            </div>
+            <div class="para">
+
+                <p>Please read the Passport information Booklet carefully before filling the form . Furnishing of incorrect information suppression of information would lead to rejection of application and would attract penal provision prescribed under the passports Act 1967. Please produce produce your original documents at the time of submission the form. All field marked with (*) are mandatory to fill. </p>
+
+            </div>
+            
+        </div>
+        
+        
+    </header>
+    <div class="service">
+     <h4>Service Required</h4>
+    </div>
+    <form action="">
+        
+        <div class="apply Second-style" >
+            
+            Applying for * : <input type="text" required="true">
+            
+        </div>
+        
+        <div class="TOA First-style">
+            
+            <p id="TOA_1"> Type of Application * : </p>
+            
+            <!-- <div class="allign"> -->
+                
+                <label for="html">Normal</label>
+                <input type="radio" id="normal" name="TOA" value="HTML" required="true" checked="true">
+                <label for="html">Tatkaal</label>
+                <input type="radio" id="tatkaal" name="TOA" value="HTML">
+                
+                <!-- </div> -->
+                
+                
+            </div>
+            
+            <div class="TPB First-style">
+                
+                <p id="TOA_1"> Type of Passport Booklet * : </p>
+      
+                <label for="html">36 pages</label>
+                <input type="radio" id="36" name="PB" value="HTML" required="true" checked="true">
+                <label for="html">60 pages</label>
+        <input type="radio" id="60" name="PB" value="HTML">
+        
+        
+    </div>
+    
+    <div class="First-style">
+        
+        <p id="TOA_1"> Validity Required (For  minors between 15 and 18 )* : </p>
+        
+        <label for="html">10 Years</label>
+        <input type="radio" id="10 yr" name="VR" value="HTML" required="true" checked="true">
+        <label for="html">Upto age 18</label>
+        <input type="radio" id="Uptoage18" name="VR" value="HTML">
+        <label for="html">Not Applicable</label>
+        <input type="radio" id="NA" name="VR" value="HTML">
+        
+        
+    </div>
+    
+    <div class="ApplicantDetails">
+        
+        <h4>Applicant Details</h4>
+        
+    </div>
+    
+    <h4 class="First-style">Applicant Given Name ( Given name means First name followed by Middle name ( if any)) * </h4>
+    <div class="inputName">
+        
+            <input type="text" size="220" required="true" >
+            
+        </div>
+        
+        <h4 class="First-style">Surname  </h4>
+        
+        <div class="inputName">
+            
+            <input type="text" size="220" >
+            
+        </div>
+        
+        <div class="First-style" style="width: 700px;">
+            
+            <p id="Allias"> Are you known by other name/alias * : </p>
+            
+            <label for="html">Yes</label>
+            <input type="radio" id="yes" name="allias" value="HTML" required="true" >
+            <label for="html">No</label>
+            <input type="radio" id="no" name="allias" value="HTML" checked="true">
+            
+            
+        </div>
+        
+        <div class="First-style" style="width: 705px;">
+            
+            <p id="namaChange"> Have you  ever changed your name * : </p>
+            
+            <label for="html">Yes</label>
+            <input type="radio" id="yes" name="nameChange" value="HTML" required="true" >
+            <label for="html">No</label>
+            <input type="radio" id="no" name="nameChange" value="HTML" checked="true">
+            
+            
+        </div>
+        
+        
+        <div  class="First-style" style="width: 500px;">
+            
+            <p id="Allias"> Date of Birth (DD/MM/YY) * </p>
+            
+            
+            <input type="date">
+            
+        </div>
+        
+        
+        <div class="service">
+            <h4>Place of Birth </h4>
+        </div>
+        
+        <div class="village Second-style" >
+            
+            Village or Town or City * : <input type="text" required="true" size="50px">
+            
+        </div>
+        <div class="Country Second-style" >
+            
+            Country ( if abroad ) * : <input type="text" required="true" size="50px">
+            
+        </div>
+        <div class="group">
+
+            <div class="State Second-style" style="width: 600px;" >
+                
+                State ( if in India ) * : <input type="country" required="true" size="50px" placeholder="select">
+                
+            </div>
+            <div class="District Second-style " style="width: 600px;" >
+                
+                District ( if in India ) * : <input type="country" required="true" size="50px" placeholder="select">
+                
+            </div>
+        </div>
+        
+        <p id="dirn">if born before 15/5/1947 in place now isd pakistan and bangladesh then 
+            select "unidivided india"</p>
+     
+            <div class="group">
+    
+                <div class="State Second-style" style="width: 400px;" >
+                    
+                    Gender * : <input type="country" required="true" size="30px" placeholder="Male/female">
+                    
+                </div>
+                <div class="State Second-style" style="width: 400px;" >
+                    
+                    Marital Status  * : <input type="country" required="true" size="30px" placeholder="Married/Unmarried">
+                    
+                </div>
+                <div class="District Second-style " style="width: 400px;" >
+                    
+                   CitizenShip of India by * : <input type="country" required="true" size="30px" placeholder="select">
+                    
+                </div>
+            </div>
+            <div class="group">
+                
+                <div class="State Second-style" style="width: 500px;" >
+                    
+                    PAN (if available) : <input type="country" size="30px">
+                    
+                </div>
+                
+                <div class="District Second-style " style="width: 500px;" >
+                    
+                    Voter id (if available) : <input type="country"  size="30px" >
+                    
+                </div>
+                
+                
+            </div>
+            <div class="State First-style " style="width: 1000px;" >
+                
+                Employment Type : <input type="country" size="100px">
+                
+            </div>
+            
+            <div class=" Ques First-style" style="width: 600px;" >
+                
+                Is either of your parents , a goverment servant : <input type="country" size="10px">
+                
+            </div>
+            
+            <div class="group">
+    
+                <div class="State First-style" style="width: 600px;" >
+                    
+                    Educational Qualification * : <input type="country" required="true" size="10px">
+                    
+                </div>
+
+                <div class= "State First-style" style="width: 600px;" >
+                    
+                  Are you Eligible for non ECR category  * : <input type="country" required="true" size="10px">
+                    
+                </div>
+                
+            </div>
+            <div class= "State First-style" style="width: 600px;" >
+                
+              Visible distinguishing mark  * : <input type="country" required="true" size="30px">
+                
+            </div>
+            <div class="service">
+                <h4>Family details  (You have to provide atleast one  Father/Mother/Guardian details )</h4>
+            </div>
+            
+            <div class= "FatherName First-style">
+                
+                
+                Father's Given Name (Given name means first name followed by middlename (if any))   * :
+            </div>
+            <div class= "FatherName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            <div class= "FathersurName First-style">
+                
+                
+                Surname   * :
+            </div>
+            <div class= "FathersurName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            
+            <div class= "GuradianName First-style">
+                
+                
+                Guardian's Given Name (if applicable)   * :
+            </div>
+            <div class= "GuardianName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            <div class= "GuardiansurName First-style">
+                
+                
+                Surname   * :
+            </div>
+            <div class= "GuradiansurName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            <div class= "MotherName First-style">
+                
+                
+                Mother's Given Name (if applicable)   * :
+            </div>
+            <div class= "MotherName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            <div class= "MothersurName First-style">
+                
+                
+                Surname   * :
+            </div>
+            <div class= "MothersurName First-style">
+                
+                
+                <input type="text" required="true" size="200px">
+            </div>
+            
+            <div class="final">
+
+                <button type="submit" class="btn" value="Submit">Submit Application</button>
+            </div>
+        
+    </form>
+    
+</label>
+</body>
+
+</html>
